@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB1173F7173FB088000C4B81 /* shipa.icns in Resources */ = {isa = PBXBuildFile; fileRef = EB1173F6173FB088000C4B81 /* shipa.icns */; };
+		EB1DCB2E14329A380099B1C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1DCB2D14329A380099B1C2 /* Cocoa.framework */; };
+		EB1DCB3814329A380099B1C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB1DCB3614329A380099B1C2 /* InfoPlist.strings */; };
+		EB1DCB3A14329A380099B1C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1DCB3914329A380099B1C2 /* main.m */; };
+		EB1DCB4114329A380099B1C2 /* shIpaCreatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1DCB4014329A380099B1C2 /* shIpaCreatorAppDelegate.m */; };
+		EB1DCB4414329A380099B1C2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB1DCB4214329A380099B1C2 /* MainMenu.xib */; };
+		EB1DCB511432A0EE0099B1C2 /* Drop.png in Resources */ = {isa = PBXBuildFile; fileRef = EB1DCB4F1432A0EE0099B1C2 /* Drop.png */; };
+		EB1DCB521432A0EE0099B1C2 /* Ok.png in Resources */ = {isa = PBXBuildFile; fileRef = EB1DCB501432A0EE0099B1C2 /* Ok.png */; };
+		EB5A9175143338E20042B26B /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = EB5A9174143338E20042B26B /* Credits.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB1173F6173FB088000C4B81 /* shipa.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = shipa.icns; path = shIpaCreator/shipa.icns; sourceTree = "<group>"; };
+		EB1DCB2914329A380099B1C2 /* shIpaCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shIpaCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1DCB2D14329A380099B1C2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EB1DCB3014329A380099B1C2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EB1DCB3114329A380099B1C2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB1DCB3214329A380099B1C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB1DCB3514329A380099B1C2 /* shIpaCreator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shIpaCreator-Info.plist"; sourceTree = "<group>"; };
+		EB1DCB3714329A380099B1C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB1DCB3914329A380099B1C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB1DCB3B14329A380099B1C2 /* shIpaCreator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shIpaCreator-Prefix.pch"; sourceTree = "<group>"; };
+		EB1DCB3F14329A380099B1C2 /* shIpaCreatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shIpaCreatorAppDelegate.h; sourceTree = "<group>"; };
+		EB1DCB4014329A380099B1C2 /* shIpaCreatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shIpaCreatorAppDelegate.m; sourceTree = "<group>"; };
+		EB1DCB4314329A380099B1C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EB1DCB4F1432A0EE0099B1C2 /* Drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Drop.png; path = shIpaCreator/Drop.png; sourceTree = "<group>"; };
+		EB1DCB501432A0EE0099B1C2 /* Ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ok.png; path = shIpaCreator/Ok.png; sourceTree = "<group>"; };
+		EB5A9174143338E20042B26B /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Credits.html; path = ../../../LyricsTab/LyricsTab/LyricsTab/Credits.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB1DCB2614329A380099B1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1DCB2E14329A380099B1C2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB1DCB1E14329A380099B1C2 = {
+			isa = PBXGroup;
+			children = (
+				EB1DCB4E1432A0C40099B1C2 /* Graphix */,
+				EB1DCB3314329A380099B1C2 /* shIpaCreator */,
+				EB1DCB2C14329A380099B1C2 /* Frameworks */,
+				EB1DCB2A14329A380099B1C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB1DCB2A14329A380099B1C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB1DCB2914329A380099B1C2 /* shIpaCreator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB1DCB2C14329A380099B1C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB1DCB2D14329A380099B1C2 /* Cocoa.framework */,
+				EB1DCB2F14329A380099B1C2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB1DCB2F14329A380099B1C2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB1DCB3014329A380099B1C2 /* AppKit.framework */,
+				EB1DCB3114329A380099B1C2 /* CoreData.framework */,
+				EB1DCB3214329A380099B1C2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EB1DCB3314329A380099B1C2 /* shIpaCreator */ = {
+			isa = PBXGroup;
+			children = (
+				EB1DCB3F14329A380099B1C2 /* shIpaCreatorAppDelegate.h */,
+				EB1DCB4014329A380099B1C2 /* shIpaCreatorAppDelegate.m */,
+				EB1DCB4214329A380099B1C2 /* MainMenu.xib */,
+				EB1DCB3414329A380099B1C2 /* Supporting Files */,
+			);
+			path = shIpaCreator;
+			sourceTree = "<group>";
+		};
+		EB1DCB3414329A380099B1C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB5A9174143338E20042B26B /* Credits.html */,
+				EB1DCB3514329A380099B1C2 /* shIpaCreator-Info.plist */,
+				EB1DCB3614329A380099B1C2 /* InfoPlist.strings */,
+				EB1DCB3914329A380099B1C2 /* main.m */,
+				EB1DCB3B14329A380099B1C2 /* shIpaCreator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB1DCB4E1432A0C40099B1C2 /* Graphix */ = {
+			isa = PBXGroup;
+			children = (
+				EB1173F6173FB088000C4B81 /* shipa.icns */,
+				EB1DCB4F1432A0EE0099B1C2 /* Drop.png */,
+				EB1DCB501432A0EE0099B1C2 /* Ok.png */,
+			);
+			name = Graphix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB1DCB2814329A380099B1C2 /* shIpaCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB1DCB4714329A380099B1C2 /* Build configuration list for PBXNativeTarget "shIpaCreator" */;
+			buildPhases = (
+				EB1DCB2514329A380099B1C2 /* Sources */,
+				EB1DCB2614329A380099B1C2 /* Frameworks */,
+				EB1DCB2714329A380099B1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shIpaCreator;
+			productName = shIpaCreator;
+			productReference = EB1DCB2914329A380099B1C2 /* shIpaCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB1DCB2014329A380099B1C2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EB1DCB2314329A380099B1C2 /* Build configuration list for PBXProject "shIpaCreator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB1DCB1E14329A380099B1C2;
+			productRefGroup = EB1DCB2A14329A380099B1C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB1DCB2814329A380099B1C2 /* shIpaCreator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB1DCB2714329A380099B1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1DCB3814329A380099B1C2 /* InfoPlist.strings in Resources */,
+				EB1DCB4414329A380099B1C2 /* MainMenu.xib in Resources */,
+				EB1DCB511432A0EE0099B1C2 /* Drop.png in Resources */,
+				EB1DCB521432A0EE0099B1C2 /* Ok.png in Resources */,
+				EB5A9175143338E20042B26B /* Credits.html in Resources */,
+				EB1173F7173FB088000C4B81 /* shipa.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB1DCB2514329A380099B1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1DCB3A14329A380099B1C2 /* main.m in Sources */,
+				EB1DCB4114329A380099B1C2 /* shIpaCreatorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB1DCB3614329A380099B1C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB1DCB3714329A380099B1C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB1DCB4214329A380099B1C2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB1DCB4314329A380099B1C2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB1DCB4514329A380099B1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB1DCB4614329A380099B1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB1DCB4814329A380099B1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shIpaCreator/shIpaCreator-Prefix.pch";
+				INFOPLIST_FILE = "shIpaCreator/shIpaCreator-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB1DCB4914329A380099B1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shIpaCreator/shIpaCreator-Prefix.pch";
+				INFOPLIST_FILE = "shIpaCreator/shIpaCreator-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB1DCB2314329A380099B1C2 /* Build configuration list for PBXProject "shIpaCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1DCB4514329A380099B1C2 /* Debug */,
+				EB1DCB4614329A380099B1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB1DCB4714329A380099B1C2 /* Build configuration list for PBXNativeTarget "shIpaCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB1DCB4814329A380099B1C2 /* Debug */,
+				EB1DCB4914329A380099B1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB1DCB2014329A380099B1C2 /* Project object */;
+}
